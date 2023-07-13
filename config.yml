@@ -1,0 +1,42 @@
+server:
+  url: http://localhost:5000
+  port: "5000"
+  base_url: /v1
+  version: 1.0.0
+
+database.master:
+  name: master
+  driver: sqlite
+  host: "database.sqlite"
+  port: 3306
+  username: root
+  password: ""
+  database: wamobi
+  debug: true
+
+file:
+  images: /Users/macbookpro/pjc/wa-blast/qr
+
+auth:
+  dash_api_key: admin
+  jwt_key: c0br4d1g1t4L
+  jwt_lifetime: 2880 # in minutes
+  jwt_audience: Cobra Middleware
+  jwt_issuer: Cobra Security Authority
+  client_secret: c0br4d1g1t4L
+
+admin:
+  user: wamobiv2
+  pass: Oct4r1n3C0r3
+
+rabbitmq:
+  user: guest
+  pass: guest
+
+fcm:
+  key: AAAAwC13Cxc:APA91bEwrnMoyAVhPU_Zq-5iXBFMZs-XR7B0tBJL1EBZlF8t6AJ7Ii_uPyuJ3ixEzt_Sc07ZBdX3KuUtnjJrl36KW10FcKfke-qmuCDh9WBpKTT1aNsjyXAxVy5WcutBMeXyownEmMcE
+
+midtrans:
+  environment: sandbox
+  serverkey: SB-Mid-server-wQw24GK03MjUty_X7yY5q7gv
+  clientkey: SB-Mid-client-kJMWMrWZJr8KQ6IE

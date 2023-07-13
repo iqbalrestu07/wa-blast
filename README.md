@@ -1,1 +1,1 @@
-# wa-blast
+# wamobiv2

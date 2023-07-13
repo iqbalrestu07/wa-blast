@@ -1,0 +1,7 @@
+- name: mq
+  type: rabbitmq
+  configuration:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672 # e.g. 5672
